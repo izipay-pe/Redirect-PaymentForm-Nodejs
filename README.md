@@ -6,15 +6,15 @@
 
 ## Índice
 
-➡️ [1. Introducción](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#%EF%B8%8F-1-introducci%C3%B3n)  
-🔑 [2. Requisitos previos](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#-2-requisitos-previos)  
-🚀 [3. Ejecutar ejemplo](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#-3-ejecutar-ejemplo)  
-🔗 [4. Pasos de integración](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#4-pasos-de-integraci%C3%B3n)  
-💻 [4.1. Desplegar pasarela](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#41-desplegar-pasarela)  
-💳 [4.2. Analizar resultado de pago](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#42-analizar-resultado-del-pago)  
-📡 [4.3. Pase a producción](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#43pase-a-producci%C3%B3n)  
-🎨 [5. Personalización](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#-5-personalizaci%C3%B3n)  
-📚 [6. Consideraciones](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#-6-consideraciones)
+➡️ [1. Introducción](#-1-introducci%C3%B3n)  
+🔑 [2. Requisitos previos](#-2-requisitos-previos)  
+🚀 [3. Ejecutar ejemplo](#-3-ejecutar-ejemplo)  
+🔗 [4. Pasos de integración](#4-pasos-de-integraci%C3%B3n)  
+💻 [4.1. Desplegar pasarela](#41-desplegar-pasarela)  
+💳 [4.2. Analizar resultado de pago](#42-analizar-resultado-del-pago)  
+📡 [4.3. Pase a producción](#43pase-a-producci%C3%B3n)  
+🎨 [5. Personalización](#-5-personalizaci%C3%B3n)  
+📚 [6. Consideraciones](#-6-consideraciones)
 
 ## ➡️ 1. Introducción
 
@@ -45,7 +45,7 @@ git clone https://github.com/izipay-pe/Redirect-PaymentForm-NodeJS
 
 ### Datos de conexión 
 
-Reemplace **[CHANGE_ME]** con sus credenciales de `API formulario V1, V2` extraídas desde el Back Office Vendedor, revisar [Requisitos previos](https://github.com/izipay-pe/Embedded-PaymentForm-.NET/tree/main?tab=readme-ov-file#-2-requisitos-previos).
+Reemplace **[CHANGE_ME]** con sus credenciales de `API formulario V1, V2` extraídas desde el Back Office Vendedor, revisar [Requisitos previos](#-2-requisitos-previos).
 
 - Editar el archivo `keys/keys.js` en la ruta raíz:
 ```node
@@ -226,7 +226,7 @@ Puede intentar realizar una transacción utilizando una tarjeta de prueba (en la
 
 ## 📡4.3.Pase a producción
 
-Reemplace **[CHANGE_ME]** con sus credenciales de PRODUCCIÓN `API formulario V1, V2` extraídas desde el Back Office Vendedor, revisar [Requisitos Previos](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#-2-requisitos-previos).
+Reemplace **[CHANGE_ME]** con sus credenciales de PRODUCCIÓN `API formulario V1, V2` extraídas desde el Back Office Vendedor, revisar [Requisitos Previos](#-2-requisitos-previos).
 
 - Editar el archivo `appsettings.json` en la ruta raíz:
 ```node
