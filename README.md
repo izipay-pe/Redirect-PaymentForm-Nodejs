@@ -30,6 +30,7 @@ Este manual está diseñado para ayudarte a comprender el flujo de la integraci�
 
 - Comprender el flujo de comunicación de la pasarela. [Información Aquí](https://secure.micuentaweb.pe/doc/es-PE/form-payment/standard-payment/definir-pasos-de-pago-vista-del-vendedor.html)
 - Extraer credenciales del Back Office Vendedor. [Guía Aquí](https://github.com/izipay-pe/obtener-credenciales-de-conexion)
+- Para este proyecto se utiliza NodeJS v22.12.0.
 - Para este proyecto utilizamos la herramienta Visual Studio Code.
 
 > [!NOTE]
