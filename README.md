@@ -240,7 +240,7 @@ const keys = {
 ```
 
 - Editar el archivo `controllers/controller.js`, cambia el parámetro `vads_ctx_mode` a `PRODUCTION` y la ruta de `vads_url_success`:
-```json
+```node
 const newParams = {
       vads_action_mode: "INTERACTIVE",
       vads_ctx_mode: "PRODUCTION", // TEST O PRODUCTION
