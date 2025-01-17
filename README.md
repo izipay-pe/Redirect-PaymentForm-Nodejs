@@ -226,14 +226,31 @@ Puede intentar realizar una transacción utilizando una tarjeta de prueba (en la
 
 ## 📡4.3.Pase a producción
 
-Reemplace **[CHANGE_ME]** con sus credenciales de PRODUCCIÓN extraídas desde el Back Office Vendedor, revisar [Requisitos Previos](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#-2-requisitos-previos).
+Reemplace **[CHANGE_ME]** con sus credenciales de PRODUCCIÓN `API formulario V1, V2` extraídas desde el Back Office Vendedor, revisar [Requisitos Previos](https://github.com/izipay-pe/Redirect-PaymentForm-.NET/tree/main?tab=readme-ov-file#-2-requisitos-previos).
 
 - Editar el archivo `appsettings.json` en la ruta raíz:
+```node
+const keys = {
+    // Identificador de la tienda
+    "SHOP_ID" : "~ CHANGE_ME_USER_ID ~",
+
+    // Clave de Test o Producción
+    "KEY" : "~ CHANGE_ME_KEY ~"
+}
+```
+
+- Editar el archivo `controllers/controller.js`, cambia el parámetro `vads_ctx_mode` a `PRODUCTION` y la ruta de `vads_url_success`:
 ```json
-"ApiCredentials": {
-        "USERNAME": "CHANGE_ME_USER_ID",
-        "KEY": "CHANGE_ME_KEY"
-    }
+const newParams = {
+      vads_action_mode: "INTERACTIVE",
+      vads_ctx_mode: "PRODUCTION", // TEST O PRODUCTION
+      vads_page_action: "PAYMENT",
+      vads_payment_config: "SINGLE",
+      vads_url_success: "[TUDIRECCION]/result",
+      ..
+      ..
+      vads_redirect_success_timeout: "5",
+  };
 ```
 
 ## 🎨 5. Personalización
