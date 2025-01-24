@@ -182,7 +182,9 @@ En caso que la validación sea exitosa, se renderiza el template con los valores
 ### IPN
 La IPN es una notificación de servidor a servidor (servidor de Izipay hacia el servidor del comercio) que facilita información en tiempo real y de manera automática cuando se produce un evento, por ejemplo, al registrar una transacción.
 
-Se realiza la verificación de la firma y se retorna la respuesta del estado del pago. Podrás encontrarlo en el archivo `controllers/paidController.js`.
+Se realiza la verificación de la firma y se retorna la respuesta del estado del pago. Se recomienda verificar el parámetro `orderStatus` para determinar si su valor es `AUTHORISED`. De esta manera verificar si el pago se ha realizado con éxito.
+
+Podrás encontrarlo en el archivo `controllers/paidController.js`.
 
 ```node
 controller.ipn = (req, res) => {
