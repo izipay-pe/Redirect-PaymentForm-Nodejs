@@ -40,7 +40,7 @@ Este manual está diseñado para ayudarte a comprender el flujo de la integraci�
 
 ### Clonar el proyecto
 ```sh
-git clone https://github.com/izipay-pe/Redirect-PaymentForm-NodeJS
+git clone https://github.com/izipay-pe/Redirect-PaymentForm-NodeJS.git
 ``` 
 
 ### Datos de conexión 
